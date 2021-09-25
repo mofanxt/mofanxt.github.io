@@ -101,6 +101,7 @@ theme: landscape
 
 plugin:
 - hexo-generator-feed
+- hexo-generator-sitemap
 #Feed Atom
 feed:
 type: atom
@@ -112,3 +113,6 @@ deploy:
   type: git
   repository: https://github.com/mofanxt/mofanxt.github.io
   branch: main
+
+sitemap:
+  path: sitemap.xml
